@@ -1,0 +1,65 @@
+Operadores Aritimeticos
+
+	    	   | a <- 5|
+	           | b <- 2|			
+
++ | adição         | a + b | 7
+- |subtração       | a - b | 3
+* |multiplicação   | a * b | 10 	
+/ |divisão	   | a / b | 2.5
+\ |divisao inteira | a \ b | 2
+^ |Exponenciação   | a ^ b | 25
+% | Modulo	   | a % b | 1
+
+Ordem de precedencia
+
+
+	   | () |		   |	     |  E
+Aritméticos| ^  | Relacionais|todos| Lógicos |  OU
+	   | */ |		   |	     |	NÃO
+	   | +- |		   |
+
+
+
+
+
+
+
+Função aritmeticas no VisualLog
+
+No visual|  O que faz 	  | Exemplo     | Resultado
+
+Abs 	 | Valor absoluto | Abs(-10)    | 10
+Exp 	 | exponenciação  | Exp(3,2)    | 9
+Int	 | Valor Inteiro  | Int(3.9)    | 3
+RaizQ	 | Raiz Quadrada  | RaizQ(25)   | 5
+Pi	 | Retorna o PI   | PI	        | 3.14
+Sen	 | Seno(rad)	  | Sen(0.523)  | 0.5
+Cos	 | Cosseno(rad)	  | Cos(0.523)  | 0.86
+Tan	 | Tangente(rad)  | Tan(0.523)  | 0.57
+GraupRad | Graus para Rad | GraupRad(30)|0.52
+
+
+Operadores Realacionais
+
+>  | maior que 
+<  | menor que 
+>= | maior que 
+<= | menor que
+=  | igual que 
+<> | diferente de
+
+Operadores Logicos
+		|                |
+p | q | p E q 	| p | q | p OU q | p | Não p
+		|    		 |
+V | V | V	| V | V |   V    | V | F
+V | F | F	| V | F	|   V	 | F | V
+F | V | F	| F | V	|   V	 |
+F | F | F	| F | F	|   F	 |
+
+** Nome da estrutura que incorpora o SENÃO na sintaxe é: Condicional Composta
+
+
+São as estruturas condicionais simples, as compostas, as alinhadas e o escolha caso
+
